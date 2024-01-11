@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body onload="number" id = "Sfondo">
+    <h1>Guess The Number</h1>
+    <form>
+        <label for="number">Number:</label>
+        <input id="InsertNumber" type="number" placeholder="Insert a number...">
+        <input id = "bottone" type="button" value = "Test Your Luck" onclick="CheckNumber()">
+        <p id="Tip"></p>
+        <p id= "Lives"></p>
+        <p id="Points"></p>
+        <p id="RecordPoints"></p>
+    </form>
+<script src="script.js"></script>
+</body>
+</html>
